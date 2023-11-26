@@ -12,7 +12,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '24830912'))
     API_HASH = str(getenv('API_HASH', 'a1a1775593531b90850b8b82e3b14940'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002039649156'))
@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://TeluguZoneBot:Daemon990@cluster0.5uswt45.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'vj_botz'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://88js5t01au:rNxFOUi7YXcsJCDx@cluster0.nugnrxb.mongodb.net/?retryWrites=true&w=majority'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'TeluguZone0'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
